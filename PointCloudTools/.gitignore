@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Point Cloud File
+*.e57
+*.ply
+*.pcd
+*.pts
+
+*.mp4
+*.avi
+
+data/*
