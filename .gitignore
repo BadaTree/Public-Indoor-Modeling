@@ -1,0 +1,10 @@
+*.glb
+*.mp4
+RandLA-Net/
+pointnet.pytorch
+Video/
+*.mov
+*.ply
+*.pptx
+myenv/Lib/site-packages/open3d/cpu/pybind.cp37-win_amd64.pyd
+myenv/Lib/python3.9/site-packages/open3d/cpu/pybind.cpython-39-darwin.so

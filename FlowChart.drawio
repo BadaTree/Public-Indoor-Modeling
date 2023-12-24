@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2023-12-03T05:14:00.692Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="4DXPab4QTPNtvlWUS58Z" version="22.1.5" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1914" dy="976" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="a3hYxiqVfbSfkNiXc0Rz-13" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1;fillColor=#ffe6cc;strokeColor=#0f0f0f;shadow=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412.5" y="106" as="sourcePoint" />
+            <mxPoint x="412.5" y="141" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3hYxiqVfbSfkNiXc0Rz-14" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; font-size: 14px;&quot;&gt;Specify the standard deviation multiplier a&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#0f0f0f;fontStyle=1;shadow=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="223" y="145" width="380" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="a3hYxiqVfbSfkNiXc0Rz-18" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; font-size: 14px;&quot;&gt;Find&lt;br style=&quot;font-size: 14px;&quot;&gt;the nearest neighbor (P_TCP) of each point p_i&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#0f0f0f;fontStyle=1;shadow=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="223" y="238" width="380" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="a3hYxiqVfbSfkNiXc0Rz-21" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; font-size: 14px;&quot;&gt;Calculate&lt;br style=&quot;font-size: 14px;&quot;&gt;the nearest point distance d to the&amp;nbsp;&lt;/p&gt;point p_i" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#0f0f0f;fontStyle=1;shadow=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="223" y="332" width="380" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="a3hYxiqVfbSfkNiXc0Rz-28" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1;fillColor=#ffe6cc;strokeColor=#0f0f0f;shadow=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412.5" y="198" as="sourcePoint" />
+            <mxPoint x="412.5" y="233" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3hYxiqVfbSfkNiXc0Rz-30" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1;fillColor=#ffe6cc;strokeColor=#0f0f0f;shadow=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412.5" y="291" as="sourcePoint" />
+            <mxPoint x="412.5" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3hYxiqVfbSfkNiXc0Rz-31" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1;fillColor=#ffe6cc;strokeColor=#0f0f0f;shadow=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412.5" y="385" as="sourcePoint" />
+            <mxPoint x="412.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3hYxiqVfbSfkNiXc0Rz-35" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; font-size: 14px;&quot;&gt;Specifies the number k of neighbors to refer to when calculating&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=1;fillColor=#ffe6cc;strokeColor=#0f0f0f;fontStyle=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="222" y="52" width="380" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="a3hYxiqVfbSfkNiXc0Rz-36" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Helvetica&quot;&gt;Calculate&lt;br style=&quot;font-size: 14px;&quot;&gt;the average distance u_d between the points (P_CNP)&lt;br style=&quot;font-size: 14px;&quot;&gt;adjacent to P_i&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#0f0f0f;fontStyle=1;shadow=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="223" y="426" width="380" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="a3hYxiqVfbSfkNiXc0Rz-37" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; font-size: 14px;&quot;&gt;Calculate&lt;br style=&quot;font-size: 14px;&quot;&gt;the standard deviation () for distance &lt;span style=&quot;font-family: noto; font-size: 14px;&quot;&gt;d_i&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#0f0f0f;fontStyle=1;shadow=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="223" y="519" width="380" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="a3hYxiqVfbSfkNiXc0Rz-38" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; font-size: 14px;&quot;&gt;Allow threshold &lt;span style=&quot;font-family: noto; font-size: 14px;&quot;&gt;T_g&lt;/span&gt;&lt;span style=&quot;font-family: noto; font-size: 14px;&quot;&gt; = …&lt;br style=&quot;font-size: 14px;&quot;&gt;Calculate the . mean + &lt;/span&gt;&lt;span style=&quot;font-family: noto; font-size: 14px;&quot;&gt;stddev_mult&lt;/span&gt;&lt;span style=&quot;font-family: noto; font-size: 14px;&quot;&gt; * &lt;/span&gt;&lt;span style=&quot;font-family: noto; font-size: 14px;&quot;&gt;stddev&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#0f0f0f;fontStyle=1;shadow=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="223" y="613" width="380" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="a3hYxiqVfbSfkNiXc0Rz-39" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1;fillColor=#ffe6cc;strokeColor=#0f0f0f;shadow=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412.5" y="479" as="sourcePoint" />
+            <mxPoint x="412.5" y="514" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3hYxiqVfbSfkNiXc0Rz-40" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1;fillColor=#ffe6cc;strokeColor=#0f0f0f;shadow=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412.5" y="572" as="sourcePoint" />
+            <mxPoint x="412.5" y="607" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3hYxiqVfbSfkNiXc0Rz-41" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1;fillColor=#ffe6cc;strokeColor=#0f0f0f;shadow=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412.5" y="666" as="sourcePoint" />
+            <mxPoint x="412.5" y="701" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3hYxiqVfbSfkNiXc0Rz-42" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; font-size: 14px;&quot;&gt;D&amp;gt;Remove&lt;br style=&quot;font-size: 14px;&quot;&gt;points that meet the T condition&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;glass=0;strokeWidth=1;shadow=1;fillColor=#ffe6cc;strokeColor=#0f0f0f;fontStyle=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220.5" y="707" width="380" height="52" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
