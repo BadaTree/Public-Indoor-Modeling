@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신공학관</title>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.module.js",
+                "GLTFLoader": "https://cdn.jsdelivr.net/npm/three@0.132.2/examples/jsm/loaders/GLTFLoader.js",
+                "orbitControls": "./three-js-webpack-master/node_modules/three/examples/jsm/controls/OrbitControls.js"
+            }
+        }
+    </script>
+
+    <script type="module">
+        import { GLTFLoader } from 'GLTFLoader';
+        import * as THREE from 'three';
+        import { OrbitControls } from 'orbitControls';
+
+        // Calculate the screen dimensions
+        const screenWidth = window.innerWidth;
+        const screenHeight = window.innerHeight;
+
+        // Add scene object
+        let scene = new THREE.Scene();
+
+        // Camera settings
+        let camera = new THREE.PerspectiveCamera(800, screenWidth / screenHeight);
+        camera.position.set(800, 300, 155);
+        camera.lookAt(0, 0, 0);
+
+        // Set the background color
+        scene.background = new THREE.Color('white');
+
+        // Lighting settings
+        let light = new THREE.DirectionalLight(0xffff00, 10);
+        scene.add(light);
+
+        // Render settings
+        let renderer = new THREE.WebGLRenderer({
+            canvas: document.querySelector('#canvas'),
+            antialias: true
+        });
+        // Set canvas size to full screen
+        renderer.setSize(screenWidth, screenHeight);
+        // Modify the color encoding method to keep the original color
+        // renderer.outputEncoding = THREE.sRGBEncoding;
+
+        // OrbitControls 추가
+        const controls = new OrbitControls(camera, renderer.domElement);
+        controls.minDistance = 2; // 최대 줌인 거리 제한
+        // controls.maxDistance = 100; // 최대 줌 아웃 거리 제한 
+        // controls.maxPolarAngle = Math.PI/2; // 회전 최대 각도 제한 
+        controls.update();
+
+        // OrbitControls 동작 함수 추가 
+        function animate(){
+            requestAnimationFrame(animate);
+            controls.update();
+            renderer.render(scene,camera);
+        }
+        
+        // Call the 3D model
+        let loader = new GLTFLoader();
+        loader.load('./EngineeringHall.glb', function (gltf) {
+            const model = gltf.scene;
+
+        // 미리보기 모드에 원하는 속성을 설정하여 미리보기 재질을 생성합니다.
+        const previewMaterial = new THREE.MeshLambertMaterial({ color: 0x808080});
+
+        // 모델 계층 구조를 트래버스하며 미리보기 재질을 적용합니다.
+        model.traverse((node) => {
+        if (node.isMesh) {
+            node.material = previewMaterial;
+            // node.material = node.material;
+        }
+        });
+            scene.add(model);
+
+            renderer.render(scene, camera);
+            animate()
+        });
+    </script>
+</body>
+</html>
