@@ -1,7 +1,5 @@
 # IndoorNavModel
 
-<br><br>
-
 ## **Google Drive**  🍏🍎 
 
 - [Paper](https://drive.google.com/drive/u/0/folders/1yNfkobCd-HqKHG5RrYeAxwMLXnzWhkgS)
