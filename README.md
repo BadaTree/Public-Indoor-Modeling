@@ -2,13 +2,6 @@
 
 <br><br>
 
-## **Notion**  🍏  
-
-- [How can I automate 3D modeling?](https://www.notion.so/3D-modeling-3b27355783374c55a41b34590826077c)
-- [Innovations in 3D Modeling Automation for Indoor Navigation](https://www.notion.so/Innovations-in-3D-Modeling-Automation-for-Indoor-Navigation-0137a3b6cd1042fa89008a6148b665e5)
-- [Paper Review](https://www.notion.so/What-is-a-SLAM-b9b8bb898ec24351b93f91e17c78e1b7)
-- [ 통신학회 논문](https://www.notion.so/10-06-845c8093081e4bfba372a2e82c67fa6a)
-
 ## **Google Drive**  🍏🍎 
 
 - [Paper](https://drive.google.com/drive/u/0/folders/1yNfkobCd-HqKHG5RrYeAxwMLXnzWhkgS)
